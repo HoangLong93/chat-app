@@ -28,6 +28,7 @@ sockets_list = [server_socket]
 # List of connected clients - socket as a key, user header and name as data
 clients = {}
 
+print(f'Listening for connections on {IP}:{PORT}...')
 
 def receive_message(client_socket):
 	try:
